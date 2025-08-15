@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Menu, Booking
+from restaurant.models import Menu, Booking
 from datetime import datetime
 # Create your tests here.
 class MenuModelTest(TestCase):
